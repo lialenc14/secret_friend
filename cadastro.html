@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amigo secreto</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    
+    <header>
+        <h1>AMIGO SECRETO INTIN</h1>
+    </header>
+    <main>
+        <section>
+            <form action="javascript:;" onsubmit="handleSubmit()">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email">
+            <br>
+            <button type="submit" id="cadastrar" onclick="window.location.href='index.html';">Cadastrar</button>
+            <button type="submit" id="cadatrarOutro">Cadastrar outro</button>
+            </form>
+        </section>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

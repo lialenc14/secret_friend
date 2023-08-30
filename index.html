@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>amigo secreto</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Amigo secreto</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
         <h1>AMIGO SECRETO INTIN</h1>
     </header>
     <main>
+        <section id="comParticipante">
+            <p>Obs.: o amigo secreto só pode ocorrer com no mínimo 3 pessoas.</p>
+            <ul>
+            </ul>
+        </section>
+        <section id="semParticipante">
+            <img src="assets/picture.png" alt="C:\Users\livia\Downloads\secret_friend-main\assets">
+            <p>Nenhum participante adicionado</p>
+        </section>
         <section>
-            <img src="picture.png" alt="assets/picture.png">
-            <p>Nenhum usuário adicionado</p>
-            <button type="button" onclick="trocaTela()"></button>
+            <button type="button" id="adicionar" onclick="window.location.href='cadastro.html';">Adicionar</button>
+            <button type="button" id="sortear" onclick="window.location.href='sorteio.html';">Sortear</button>
         </section>
     </main>
     <script type="text/javascript" src="main.js"></script>
